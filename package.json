@@ -1,0 +1,22 @@
+{
+  "name": "react-json-parser",
+  "version": "0.1.0",
+  "repository": "git@github.com:thusfresh/react-json-parser.git",
+  "author": "Paul Le Cam <paul@mainframe.com>",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": {
+    "react-json-parser": "./bin/react-json-parser"
+  },
+  "dependencies": {
+    "babel-traverse": "^6.25.0",
+    "babel-types": "^6.25.0",
+    "babylon": "^6.17.4",
+    "commander": "^2.11.0",
+    "fs-extra": "^4.0.0",
+    "get-stdin": "^5.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^1.5.3"
+  }
+}
